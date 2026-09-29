@@ -13,3 +13,17 @@ def main(var1,var2):
 
 x=main(pre_deco,post_deco)
 x()
+#----------------------------------------------------------------
+
+def pre():
+    print("hello!")
+
+def post():
+    print("I am fine")
+
+def main(f1,f2):
+    f1()
+    print("How are you?")
+    f2()
+
+main(pre,post)
