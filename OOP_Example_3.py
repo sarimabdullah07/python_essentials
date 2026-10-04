@@ -1,3 +1,4 @@
+print("\n\n      ___Book Market___          \n")
 class Book:
     def __init__(self,title, author, book_price):
         self.title=title
@@ -18,7 +19,7 @@ class Book:
         print("Author: ",self.author)
         print("Price: ",self.book_price)
         print("after discount of 20%: ", round((self.book_price-self.book_price*0.2),2))
-        print("\n")
+        print("")
 
 v=Book("ATOMIC HABITS","James Clear",534)
 w=Book("HARRY PORTER","J.K. Rowling",2569)
@@ -26,8 +27,11 @@ x=Book("The ALCHEMIST","Al Khawarizmi",894)
 y=Book("1984","George orwell",182)
 z=Book("SAPIENS","Y.N Harari",510)
 
-v.display()
-w.display()
-x.display()
-y.display()
-z.display()
+list=[v,w,x,y,z]
+for i in list:
+    i.display()
+# v.display()
+# w.display()
+# x.display()
+# y.display()
+# z.display()

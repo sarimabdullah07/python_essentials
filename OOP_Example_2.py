@@ -6,7 +6,7 @@ class Employee:
         self.designation=designation
         self.salary=salary
         self.city= city
-        print("___Employee Details___")
+        print("\n    ___Employee Details___")
 
     def display(self):
         code=r.randint(10000,99999)
@@ -15,9 +15,15 @@ class Employee:
         print(f"Employee Department: {self.department}")
         print(f"Designation of Employee: {self.designation}")
         print(f"Employee Salary: {self.salary} Rs/- monthly")
-        print("Employee yearly Salary: ",self.salary*12, "rupee per annum")
+        self.annual_salary()
         print(f"Employee belongs to {self.city} city")
         
+    def annual_salary(self):
+        self.salary=self.salary*12
+        print("Yearly salary: ",self.salary,"rupees per annum")
 
-e=Employee("Alice","mechanical department","team leader",105000,"mumbai")
-e.display()
+e1=Employee("Alice","mechanical department","team leader",105000,"mumbai")
+e1.display()
+
+e2=Employee("charly","civil department","developer",95000,"pune")
+e2.display()

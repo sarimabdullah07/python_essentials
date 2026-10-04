@@ -12,3 +12,6 @@ class Student:
 
 S1=Student(10,"ALice",[82,94,89])
 S1.display()
+
+s2=Student(24,"David",[92,79,62])
+s2.display()
