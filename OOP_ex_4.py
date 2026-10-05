@@ -1,6 +1,6 @@
 class School:
     #class variable
-    class_variable="You are very genius boy"
+    school_motto="Strive for Exellence"
 
     #constructor(instance of a class)
     def __init__(self,p1,p2):
@@ -12,16 +12,16 @@ class School:
     def display(self):
         print("Name of the student: ",self.p1)
         print("percentage of the student: ",self.p2,"%")
-        print(self.class_variable)
+        print(self.school_motto)
 
     @classmethod
-    def class_method(cls,iq):
-        cls.iq=iq
-        print("Your IQ level is",iq)
+    def set_passing_marks(cls,marks):
+        cls.marks=marks
+        print("Minimum passing marks set to: ",marks)
 
 #object(instances of a class)
 s1=School("Abraham",92)
 s1.display()
 
 #class method calling
-School.class_method(164)
+School.set_passing_marks(40)
