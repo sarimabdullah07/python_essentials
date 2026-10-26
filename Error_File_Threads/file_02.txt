@@ -1,0 +1,2 @@
+This file is actually not created first, write function creates file if not found in the given address
+ And it rewrite(Delete prevoius data) for every writing.

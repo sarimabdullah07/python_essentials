@@ -1,0 +1,3 @@
+Good Morning!
+Today we will learn about how to handle file,
+how to open them, read, write, and append.
