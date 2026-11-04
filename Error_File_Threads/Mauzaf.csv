@@ -1,2 +1,3 @@
 emp_id,emp_name,emp_gender,emp_dept,emp_role,emp_age,emp_salary
-101,Alice,Male,Developer,Data Analyst,24,65000
+101,Alice,Male,IT,Data Analyst,31,87500
+102,Barbie,Female,Developer,full stack devloper,21,64500

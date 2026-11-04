@@ -52,5 +52,27 @@ def append_records():
         csvWriter.writerow(emp)
         file.close()
 
-create_csv()
-append_records()
+def display_records():
+    with open("Mauzaf.csv","r") as infile:
+        csvReader=csv.DictReader(infile)
+        records=list(csvReader)
+
+        if len(records)==0:
+            print("No Records available...")
+        else:
+            return records
+
+def checkEmpId(id):
+    found=False
+    allrecords=display_records()
+    for i in allrecords:
+        if id==int(i["emp_id"]):
+            print(i)
+            found=True
+    if found==False:
+        print("No records found")
+
+# create_csv()
+# append_records()
+# print(display_records())
+checkEmpId(103)
