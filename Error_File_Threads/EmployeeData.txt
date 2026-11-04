@@ -1,0 +1,5 @@
+1001    Alice   Male    45000
+1002    Bob     Male    47000
+1003    Charle  Male    43000
+1004    David   Male    52500
+1005    Eve     Female  49700

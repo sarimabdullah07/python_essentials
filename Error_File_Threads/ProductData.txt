@@ -1,0 +1,5 @@
+Keyboard	400	2	800
+yboard	200	3	600
+Mouse	150	2	300
+Speaker	450	2	900
+CPU	45000	2	90000
