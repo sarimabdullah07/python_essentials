@@ -1,3 +1,11 @@
 emp_id,emp_name,emp_gender,emp_dept,emp_role,emp_age,emp_salary
 101,Alice,Male,IT,Data Analyst,31,87500
-102,Barbie,Female,Developer,full stack devloper,21,64500
+102,Bob,Male,Developer,full stack devloper,21,64500
+103,Charlie,Male,Developer,Data Analyst,45,41500
+104,David,Male,IT,full stack devloper,35,54200
+105,Eve,Female,IT,Data Analyst,25,56000
+106,Frank,Male,Developer,Data Analyst,26,38750
+107,Gorge,Male,Developer,full stack devloper,34,31420
+108,Hena,Female,IT,full stack devloper,43,24090
+109,Ivy,Female,Developer,Data Analyst,34,16760
+110,Jack,Male,IT,full stack devloper,30,32210
